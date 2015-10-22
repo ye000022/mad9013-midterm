@@ -7,7 +7,6 @@
 .wrapper {
   margin: 0 auto;
   background-color: #61F6FF;
-  color: black;
 }
 html {
   font-family: 'Libre Baskerville', serif;
@@ -51,7 +50,8 @@ img {
   padding: 1rem 1.5rem;
   font-size: 0.8rem;
   background-color: BLACK;
-  color: grey;
+  color:grey;
+  clear:both;
 }
 main h2 {
   color: #222;
