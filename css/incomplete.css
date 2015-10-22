@@ -1,102 +1,99 @@
-*{
-  padding:0;
-  margin:0;
-  box-sizing:border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
-
 }
-.wrapper{
-  margin:0 auto;
-  background-color: #E9E9E9;
-  color:black;
-  
+.wrapper {
+  margin: 0 auto;
+  background-color: #61F6FF;
+  color: black;
 }
-html{
-  font-family:'Libre Baskerville', serif;
+html {
+  font-family: 'Libre Baskerville', serif;
   font-size: 16px;
-  line-height:1.7
+  line-height: 1.7
 }
-.masthead h1{
-  font-size:35px;
-  line-height:2.5;
+.masthead h1 {
+  font-size: 35px;
+  line-height: 2.5;
   background: #ddd url(../image/cat4.jpeg) no-repeat 50% 50%;
-  background-size:100%;
+  background-size: 100%;
   color: #4e4e4e;
   text-shadow: 2px 2px 4px #6cabff;
-  padding: 0 1.5rem;
+  padding: 2rem 1.5rem;
   border: 1px solid white;
 }
-.mainnav ul{
+.mainnav ul {
   list-style: none;
 }
-.mainnav a{
+.mainnav a {
   text-align: center;
   display: block;
-  text-decoration:none;
+  text-decoration: none;
   font-size: 20px;
-  background-color:black;
+  background-color: black;
   color: #eee;
-  border:1px solid #eee
+  border: 1px solid #eee
 }
 .mainnav a:hover,
-.mainnav a:active{
-  background-color:#eee;
-  color:#344
+.mainnav a:active {
+  background-color: #eee;
+  color: #344
 }
-img{
-  width:70%;
+img {
+  width: 70%;
   margin: 0 auto;
-  display:block;
-  border: 
+  display: block;
+  border:
 }
-.footer{
+.footer {
   padding: 1rem 1.5rem;
   font-size: 0.8rem;
-  background-color: #333;
+  background-color: BLACK;
   color: grey;
 }
-main h2{
-  color:#222;
+main h2 {
+  color: #222;
   font-size: 25px
 }
-main h3{
-  color:#222;
+main h3 {
+  color: #222;
   font-size: 20px;
 }
-
-
-@media all and (min-width:35rem) and (max-width:60em){
-.primary{
-    float:left;
-    width:63%
+@media all and (min-width:35rem) and (max-width:60em) {
+  .primary {
+    float: left;
+    width: 63%
   }
-  .side{
-    float:left;
-    width:37%;
+  
+  .side {
+    float: left;
+    width: 37%;
   }
-  .mainnav li{
-    float:left;
-    width:25%;
-    line-height:40px
-    }
+  
+  .mainnav li {
+    float: left;
+    width: 25%;
+    line-height: 40px
   }
-@media all and (min-width:60rem){
-.mainnav{
+}
+@media all and (min-width:60rem) {
+  .mainnav {
     width: 25%;
     float: left;
-}
-
-.content {
+  }
+  
+  .content {
     -webkit-column-count: 2;
     -moz-column-count: 2;
     column-count: 2;
     width: 50%;
     float: left;
-}
-
-.side {
-    width: 25%;
-    float: left;
-}
   }
   
+  .side {
+    width: 25%;
+    float: left;
+  }
+}
