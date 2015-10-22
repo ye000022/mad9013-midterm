@@ -19,11 +19,12 @@ html{
 .masthead h1{
   font-size:35px;
   line-height:2.5;
-  background:url(../image/cat4.jpeg) no-repeat 50% 50%;
+  background: #ddd url(../image/cat4.jpeg) no-repeat 50% 50%;
   background-size:100%;
   color: #4e4e4e;
   text-shadow: 2px 2px 4px #6cabff;
   padding: 0 1.5rem;
+  border: 1px solid white;
 }
 .mainnav ul{
   list-style: none;
